@@ -1,0 +1,10 @@
+venv/ 
+__pycache__/ 
+.ipynb_checkpoints/ 
+runs/ 
+*.pt 
+yolo26n.pt 
+yolov8n.pt 
+*.pyc 
+.DS_Store 
+"Pothole Detection.v1i.yolov8-obb/" 

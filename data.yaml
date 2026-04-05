@@ -1,0 +1,6 @@
+path: C:\Users\AadithGeethMohan\OneDrive\Desktop\ACM SIGKDD TASK\pothole-detection\Pothole Detection.v1i.yolov8-obb
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names: [pothole]
