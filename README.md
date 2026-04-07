@@ -71,8 +71,7 @@ POTHOLES PER IMAGE DISTRIBUTION (Training Set)
 - Visualized sample images with bounding boxes
 - Analyzed pothole count distribution per image
 
-<img width="475" height="378" alt="Screenshot 2026-04-05 014449" src="https://github.com/user-attachments/assets/6b6ab8c7-6a63-44e0-b93a-a77d6205af7d" /> <img width="441" height="355" alt="Screenshot 2026-04-05 014515" src="https://github.com/user-attachments/assets/9ae3237e-4ed6-46c9-aebb-875cf3d73f14" />
-
+<img width="472" height="377" alt="image" src="https://github.com/user-attachments/assets/1bd70c74-88c9-4780-814c-90dedf9ba5f5" /> <img width="455" height="376" alt="image" src="https://github.com/user-attachments/assets/ade520cc-24ac-4673-a83b-5019cda4a1b0" />
 
 
 ### Phase 2: Data Preparation
@@ -88,15 +87,16 @@ POTHOLES PER IMAGE DISTRIBUTION (Training Set)
 - AMP (Automatic Mixed Precision) enabled for faster training
 - Final model: 3.0M parameters, 8.1 GFLOPs
 
-<img width="998" height="211" alt="Screenshot 2026-04-05 014956" src="https://github.com/user-attachments/assets/ce78d1f8-c743-4e24-bf4a-4bf819657900" />
+<img width="1010" height="217" alt="image" src="https://github.com/user-attachments/assets/7f2ed1cb-84a6-4ba3-9b77-3625d48f29ab" />
 
 
 ### Phase 4: Evaluation
 - Validated on 273 images
 - Achieved mAP50 of 0.899, mAP50-95 of 0.578
 
-<img width="1021" height="258" alt="Screenshot 2026-04-05 015028" src="https://github.com/user-attachments/assets/9e6a5ba1-0c8f-42f1-b9f4-38e4c22b41e7" />
-<img width="530" height="295" alt="Screenshot 2026-04-05 015115" src="https://github.com/user-attachments/assets/07b17c91-51bb-4d4f-8866-19dddee1147e" />
+<img width="1020" height="621" alt="image" src="https://github.com/user-attachments/assets/413a01b6-f7a9-4da1-ae86-fca7f9e70b26" />
+<img width="1020" height="242" alt="image" src="https://github.com/user-attachments/assets/e5e91e2c-3309-40bc-881b-22a198792ef6" />
+<img width="1017" height="295" alt="image" src="https://github.com/user-attachments/assets/1f2a69b3-dd3d-4c7c-9225-b6b855edd68b" />
 
 
 ### Phase 5: Failure Analysis
@@ -104,8 +104,7 @@ POTHOLES PER IMAGE DISTRIBUTION (Training Set)
 - False positives often occur on road texture patterns
 - Under-detection cases typically involve small or partially visible potholes
 
-<img width="587" height="309" alt="Screenshot 2026-04-05 015137" src="https://github.com/user-attachments/assets/4542fbff-f5a6-4d6f-b9c7-4563d7fee161" />
-
+<img width="1020" height="307" alt="image" src="https://github.com/user-attachments/assets/321b0f95-04c1-4741-8daa-cf6f69e57521" />
 
 
 ---
@@ -190,7 +189,7 @@ results = model.train(
 
 Results saved to: runs/detect/pothole_train/results.png)
 
-<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/8cd8e31d-60a7-4dd5-bb18-56ccc56ebeb5" />
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/98c8fe33-3f5b-4068-880a-710d9791c1da" />
 
 ---
 
@@ -201,12 +200,13 @@ Results saved to: runs/detect/pothole_train/results.png)
 #### Confusion Matrix:
 Results saved to: runs/detect/pothole_train/confusion_matrix.png
 
-<img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/769b06cd-fc02-4fcc-9086-58a651c2bb12" />
+<img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a2f242b4-e721-4cdc-bc89-0139a88ee3a9" />
+
 
 #### Normalized Confusion Matrix:
 Results saved to: runs/detect/pothole_train/confusion_matrix_normalized.png
 
-<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/49992840-4faf-445d-9b75-049d49681b24" />
+<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/efb89c48-ff9c-4527-8270-c39caeef77c8" />
 
 
 | Metric      | Value | Interpretation        |
